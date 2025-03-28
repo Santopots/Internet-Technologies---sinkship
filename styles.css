@@ -29,3 +29,33 @@ a:hover {
     margin: 0 auto;
     padding: 20px;
 }
+
+.limiter {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: azure;
+}
+
+.controlls {
+    background-color:;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fields {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
