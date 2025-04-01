@@ -23,9 +23,49 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Example for a container */
-.container {
+
+
+.limiter {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: azure;
+}
+
+
+.controlls {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+}
+  
+
+.board-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.board {
+    aspect-ratio: 1 / 1;
+    width: 300px;
+    background-color: #3498db;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+  
+.cell {
+    background-color: #3498db;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
