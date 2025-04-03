@@ -111,3 +111,9 @@ button{
 #start:hover {
     background-color: #27ae60; /* Verde más oscuro */
 }
+
+.zahl{
+    background-image: url('/images/backgrounds.svg');
+    background-size: 500% 400%;
+    border-radius: 5px
+}
